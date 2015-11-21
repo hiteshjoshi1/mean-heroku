@@ -6,7 +6,7 @@ var path = require('path');
 // module.exports=config;
 
 
-var mongoProdUri = process.env.MONGOLAB_URI || 'mongodb://localhost:27017/art';
+var mongoProdUri = process.env.MONGOLAB_URI || 'mongodb://localhost:27017';
 var rootPath =  path.normalize(__dirname + '/../..');
 var config = {
 	local: {
